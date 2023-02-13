@@ -12,3 +12,20 @@ html, body, figure{/* hvis du gør dette på * skal resette den på dine p-tags 
 img{
     max-width: 100%; /* Så bliver billedet ikke større end 100%, men kan sagtens være mindre */
 }
+
+h2{
+    font-family: var(--font-hero);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a{
+    font-family: var(--font-paragraf);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+p{
+    font-family: var(--font-paragraf);
+    font-size: 20px;
+}

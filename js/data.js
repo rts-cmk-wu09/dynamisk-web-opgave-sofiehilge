@@ -7,7 +7,7 @@
 } */
 
 
-let services = [
+/* let services = [
     {
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/exploring.png",
         headline: "Promoting your territory towards foreign tourists",
@@ -26,7 +26,7 @@ let services = [
         text: "Forget about the time and money spent on creating your own website or e-commerce system for bookings.",
         linktext: "Easycamper creates your showcase. Discover the terms and conditions for joining the Network"
     },
-]
+] */
 
 let facilities = {
     headline: "Making your facility known is our priority",
