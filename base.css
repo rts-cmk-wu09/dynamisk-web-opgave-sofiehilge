@@ -23,9 +23,10 @@ a{
     font-family: var(--font-paragraf);
     color: var(--primary-color);
     font-weight: bold;
+    font-size: 18px;
 }
 
 p{
     font-family: var(--font-paragraf);
-    font-size: 20px;
+    font-size: 14px;
 }

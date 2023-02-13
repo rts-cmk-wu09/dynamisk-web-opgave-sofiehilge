@@ -17,5 +17,6 @@
 
 .serviceCard{
     width: 386px;
+    margin: var(--margin-left)
 }
 

@@ -48,16 +48,29 @@ facilities.options.forEach((element) => {
   let icon = document.createElement("img");
   icon.classList = "facilityIcon";
   let title = document.createElement("h2");
-  let faciText = document.createElement("a");
+  title.classList = "facilityTitle"
+  let faciText = document.createElement("p");
+  faciText.classList = "faciText"
+  let faciLink = document.createElement("a");
+  faciLink.classList = "faciLink"
 
   icon.src = element.icon;
   title.textContent = element.headline;
   faciText.textContent = element.text;
+  faciLink.innerHTML = "Show me more"
+  /* faciLink.textContent = element.; */
 
   facilitySec.append(icon);
   facilitySec.append(title);
-  facilitySec.append(faciText);
+  facilitySec.append(faciText)
+  facilitySec.append(faciLink);
   facilityWrapper.append(facilitySec);
 });
 
-/* facilityWrapper.append(facilitySec) */
+//---------style HVORFOR virker det ikke?????!11111
+/* let headline = `
+font-size: 36px
+font-weight: bold
+`
+
+headline.style = headline */
