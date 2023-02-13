@@ -28,7 +28,7 @@
     },
 ] */
 
-let facilities = {
+/* let facilities = {
     headline: "Making your facility known is our priority",
     options : [
         {
@@ -52,7 +52,7 @@ let facilities = {
             text: "pitch and configure the availablity calendar."
         },
     ]
-}
+} */
 
 let sites = {
     headline: "Join the community campervan sites managers.",
