@@ -12,29 +12,3 @@ html, body, figure{/* hvis du gør dette på * skal resette den på dine p-tags 
 img{
     max-width: 100%; /* Så bliver billedet ikke større end 100%, men kan sagtens være mindre */
 }
-
-/* -------------------hero----------------------- */
-.hero{
-    position: relative;
-}
-
-.hero-container{
-    position: absolute;
-    top: 5px;
-    margin-top: 5px;
-}
-
-.aside-container{
-    width: 741px;
-    height: 537px;
-    position: absolute;
-    top: 200px;
-    left: 0px;
-    background-color: white;
-}
-
-.hero-headline{
-    font: var(--font-hero);
-    font-size: 39px;
-    color: pink
-}

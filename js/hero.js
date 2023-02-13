@@ -19,12 +19,12 @@ heading.appendChild(heroImage);
 document.querySelector(".hero").innerHTML += `
 <div class="hero-container">
 <i class="fa-sharp fa-regular fa-cube"></i>
-<button class="hero-button"><i class="fa-solid fa-image-portrait"></i></button>
+<button class="hero-portrait"><i class="fa-solid fa-image-portrait"></i></button>
 </div>
 <div class="aside-container">
 <aside class="hero-headline">${hero.headline}</aside>
-<p>${hero.copy}</p>
-<button><img src=${hero.icon} alt=""></button>
+<p class="hero-paragraf">${hero.copy}</p>
+<button class="hero-button"><img src=${hero.icon} alt="">Explore</button>
 </div>
 `;
 
