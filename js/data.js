@@ -77,7 +77,7 @@
     ]
 } */
 
-let advantages = [
+/* let advantages = [
     {
         icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/compare.png",
         headline: "Convenience and Transparency",
@@ -93,6 +93,6 @@ let advantages = [
         headline: "Community of services dedicated to campers",
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
-]
+] */
 
 // Opret dit dataobjekt til footerens indhold herunder
