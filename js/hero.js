@@ -13,7 +13,7 @@ let hero = {
 let heading = document.querySelector(".hero");
 let heroImage = document.createElement("img");
 heroImage.src = hero.image; //add src to img tag
-heading.appendChild(heroImage);
+heading.append(heroImage);
 
 //icons hero
 document.querySelector(".hero").innerHTML += `

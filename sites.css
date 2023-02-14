@@ -1,0 +1,31 @@
+.sitesSection{
+    display: flex;
+}
+
+.joinSiteWrapper{
+    margin-left: var(--margin-left);
+    width: 325px;
+
+}
+
+.headline-site{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--font-hero);
+}
+.btnIcon{
+    background-color: var(--primary-color);
+    width: 250px;
+    height: 65px;
+    color: white;
+    border: none;
+}
+
+.imgSiteWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgCard{
+    width: 230px;
+}

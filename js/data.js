@@ -54,7 +54,7 @@
     ]
 } */
 
-let sites = {
+/* let sites = {
     headline: "Join the community campervan sites managers.",
     text: "Discover all the equibbed areas in Italy. Find the shop with all the services for you and your camper.",
     btnicon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/arrow-icon.png",
@@ -75,7 +75,7 @@ let sites = {
             city: "Venice"
         },
     ]
-}
+} */
 
 let advantages = [
     {
