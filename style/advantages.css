@@ -1,0 +1,23 @@
+.sites{
+    display: flex;
+}
+
+.advantagesHeadline{
+    margin-left: var(--margin-left);
+    font-size: 36px;
+}
+
+
+.advantageWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-left: var(--margin-left)
+}
+
+.advanCard{
+    width: 386px;
+}
+
+.advanIcon{
+    width: 32px;
+}

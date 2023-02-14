@@ -1,0 +1,10 @@
+:root{
+    --primary-color: #F78065;
+    --black-color: black;
+    --grey-color: #F7F7F7;
+
+    --font-hero: 'Merriweather', serif;
+    --font-paragraf: 'Montserrat', sans-serif;
+
+    --margin-left: 80px;
+}

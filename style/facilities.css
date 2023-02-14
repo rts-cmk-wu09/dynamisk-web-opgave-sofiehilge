@@ -1,0 +1,30 @@
+.headline-facilities{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--font-hero);
+    margin-left: var(--margin-left);
+}
+
+.facilityWrapper{
+    display: flex;
+    margin: var(--margin-left);
+}
+
+.facilityIcon{
+    width: 32px;
+    padding-bottom: 40px;
+}
+
+.facilityTitle{
+    font-family: var(--font-hero);
+    font-size: 22px;
+    font-weight: bolder;
+    width: 275px;
+}
+
+.faciLink{
+    font-family: var(--font-paragraf);
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 18px;
+}

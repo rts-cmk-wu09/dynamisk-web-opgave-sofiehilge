@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+@import url('base.css');
+@import url('variable.css');
+@import url('hero.css');
+@import url('service.css');
+@import url('facilities.css');
+@import url('sites.css');
+@import url('advantages.css');
+@import url('footer.css');

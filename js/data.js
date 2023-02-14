@@ -1,13 +1,13 @@
 
-let hero = {
+/* let hero = {
     image: "https://dazzling-squirrel-77a63d.netlify.app/imgs/hero.png",
     headline: "Find out how we can save your time in Backpacking in Europe",
     copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac amet id eget scelerisque amet etiam in sit commodo. Pretium ut duis orci pulvinar pretium id consectetur.",
     icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Globe.png"
-}
+} */
 
 
-let services = [
+/* let services = [
     {
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/exploring.png",
         headline: "Promoting your territory towards foreign tourists",
@@ -26,9 +26,9 @@ let services = [
         text: "Forget about the time and money spent on creating your own website or e-commerce system for bookings.",
         linktext: "Easycamper creates your showcase. Discover the terms and conditions for joining the Network"
     },
-]
+] */
 
-let facilities = {
+/* let facilities = {
     headline: "Making your facility known is our priority",
     options : [
         {
@@ -52,9 +52,9 @@ let facilities = {
             text: "pitch and configure the availablity calendar."
         },
     ]
-}
+} */
 
-let sites = {
+/* let sites = {
     headline: "Join the community campervan sites managers.",
     text: "Discover all the equibbed areas in Italy. Find the shop with all the services for you and your camper.",
     btnicon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/arrow-icon.png",
@@ -75,9 +75,9 @@ let sites = {
             city: "Venice"
         },
     ]
-}
+} */
 
-let advantages = [
+/* let advantages = [
     {
         icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/compare.png",
         headline: "Convenience and Transparency",
@@ -93,6 +93,19 @@ let advantages = [
         headline: "Community of services dedicated to campers",
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
-]
+] */
 
 // Opret dit dataobjekt til footerens indhold herunder
+
+/* let footer = {
+    text: "Easy Camper",
+    headline: "When passion meets comfort.",
+    options: [
+        {
+            headline: "Discover the Network",
+            text: ["Where to shop", "Tour Guided", "Our Tours", "About us"]
+        }
+
+    ]
+
+} */

@@ -1,0 +1,38 @@
+.footerSection{
+    display: flex;
+    
+    background-color: var(--grey-color);
+}
+
+.headFooter{
+    padding-right: 30px;
+    margin-left: var(--margin-left);
+    width: 340px;
+}
+
+.textFooter{
+    font-size: 24px;
+    
+}
+
+.textCard{
+    font-size: 14px;
+    font-family: var(--font-paragraf);
+    color: black;
+
+}
+
+.headlineFooter{
+    font-size: 48px;
+}
+a{
+    display: block;
+}
+
+.siteMapsWrap{
+    display: flex;
+}
+
+.siteMapCard{
+    padding-right: 200px;
+}

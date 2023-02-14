@@ -1,0 +1,22 @@
+/* .servicecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+.serviceImg{
+    width: 247.5px;
+    height: 180px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+.serviceCard{
+    width: 386px;
+    margin: var(--margin-left)
+}
+

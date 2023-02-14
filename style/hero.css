@@ -1,0 +1,48 @@
+.hero{
+    position: relative;
+}
+
+.hero-container{
+    position: absolute;
+    top: 5px;
+    margin-top: 5px;
+}
+
+.aside-container{
+    width: 741px;
+    height: 320px;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    background-color: white;
+    padding: 40px;
+}
+
+.hero-headline{
+    font: var(--font-hero);
+    font-size: 39px;
+    color: black;
+    width: 521px;
+}
+
+.hero-paragraf{
+    font: var(--font-paragraf);
+    font-size: 20px;
+    width: 515px;
+}
+
+.hero-button{
+    width: 250px;
+    height: 65px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   border: none;
+}
+
+span{
+    color: var(--primary-color)
+}
