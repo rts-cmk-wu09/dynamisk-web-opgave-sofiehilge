@@ -1,3 +1,8 @@
+.sites{
+    display: flex;
+    justify-content: space-around;
+}
+
 .sitesSection{
     display: flex;
 }
@@ -5,7 +10,6 @@
 .joinSiteWrapper{
     margin-left: var(--margin-left);
     width: 325px;
-
 }
 
 .headline-site{
@@ -23,9 +27,13 @@
 
 .imgSiteWrapper{
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
 }
 
 .imgCard{
     width: 230px;
+}
+
+.sitesImage{
+    height: 418px;
 }

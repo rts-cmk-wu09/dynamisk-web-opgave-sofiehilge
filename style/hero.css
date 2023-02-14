@@ -21,7 +21,7 @@
 .hero-headline{
     font: var(--font-hero);
     font-size: 39px;
-    color: var(--primary-color);
+    color: black;
     width: 521px;
 }
 
@@ -41,4 +41,8 @@
     align-items: center;
    gap: 10px;
    border: none;
+}
+
+span{
+    color: var(--primary-color)
 }

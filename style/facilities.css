@@ -8,7 +8,6 @@
 .facilityWrapper{
     display: flex;
     margin: var(--margin-left);
-    justify-content: space-between;
 }
 
 .facilityIcon{

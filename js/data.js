@@ -96,3 +96,16 @@
 ] */
 
 // Opret dit dataobjekt til footerens indhold herunder
+
+/* let footer = {
+    text: "Easy Camper",
+    headline: "When passion meets comfort.",
+    options: [
+        {
+            headline: "Discover the Network",
+            text: ["Where to shop", "Tour Guided", "Our Tours", "About us"]
+        }
+
+    ]
+
+} */

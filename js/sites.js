@@ -24,20 +24,8 @@ let sites = {
 
 //------layout
 
-/* document.querySelector(".sites").innerHTML +=`
-<div class="joinSiteWrapper">
-<h3 class="headline-site">${sites.headline}</h3>
-<p class="textSite>${sites.text}</p>
-<button class="btnIcon"><img src=${sites.btnicon} alt="">Start</button>
-</div>
-`;
- */
+
 let sitesSection = document.querySelector(".sites");
-
-/* let siteWrapper = document.createElement("div");
-siteWrapper.classList = "siteWrapper"
-
-sitesSection.append(siteWrapper); */
 
 let joinSiteWrapper = document.createElement("div");
 joinSiteWrapper.classList = "joinSiteWrapper"
