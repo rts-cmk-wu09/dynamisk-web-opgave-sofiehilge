@@ -40,13 +40,17 @@ let btnIcon = document.createElement("button");
 btnIcon.classList = "btnIcon";
 let icon = document.createElement("img");
 icon.src = sites.btnicon;
-icon.innerHTML = " " + "Start"
+let start = document.createElement("p");
+start.classList = "start";
+start.innerHTML = "Start"
+
 
 sitesSection.append(joinSiteWrapper);
 joinSiteWrapper.append(headlineSite);
 joinSiteWrapper.append(textSite);
 joinSiteWrapper.append(btnIcon);
 btnIcon.append(icon);
+btnIcon.append(start);
 
 //----loop med sites image
 let imgSiteWrapper = document.createElement("div");

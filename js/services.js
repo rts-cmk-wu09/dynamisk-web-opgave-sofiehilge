@@ -35,6 +35,7 @@ services.forEach((service) => {
     let title = document.createElement("h2");
     let cardText = document.createElement("p");
     let linktext = document.createElement("a");
+    linktext.classList = "serviceText"
 
     image.src = service.illustration;
     title.textContent = service.headline;
@@ -50,12 +51,6 @@ services.forEach((service) => {
     
 })
 
-
-//---------Style
-let serviceCard = `
-width: 386px;|
-    `
-serviceImg.style = serviceCard
 
 
 

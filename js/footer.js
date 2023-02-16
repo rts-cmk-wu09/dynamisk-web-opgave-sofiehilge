@@ -10,12 +10,15 @@ let footer = {
       textTwo: "Tour Guided",
       textThree: "Our Tours",
       textFour: "About us",
+      textFive: " "
     },
     {
       headline: "Become a Manager",
       textOne: "Join your pairing",
       textTwo: "Offer your Service",
       textThree: "Are you a guide?",
+      textFour: " ",
+      textFive: " "
     },
     {
       headline: "Assistance",
@@ -92,20 +95,28 @@ footer.options.forEach((element) => {
 
 //----- nav footer
 
-let footerNavLine = document.createElement("hr");
+/* let footerNavLine = document.createElement("hr");
 
-footerSection.append(footerNavLine);
+body.append(footerNavLine); */
+
+
 
 let footerNavSection = document.createElement("div");
 footerNavSection.classList.add("footerNavWrapper");
 
-footerSection.append(footerNavSection);
+body.append(footerNavSection);
 
+let copyRight = document.createElement("p");
+copyRight.classList.add("copyRight");
+copyRight.textContent = footer.nav
+footerNavSection.append(copyRight);
 
 let footerNav = document.createElement("nav");
 footerNav.classList.add("footerNav");
+footerNavSection.append(footerNav)
 
 let list = document.createElement("ul");
+list.classList.add("list-wrapper")
 
 footer.links.forEach((element) => {
   let listItem = document.createElement ("li");
@@ -116,4 +127,3 @@ footer.links.forEach((element) => {
 })
 
 
-/* MANGLER STYLING */

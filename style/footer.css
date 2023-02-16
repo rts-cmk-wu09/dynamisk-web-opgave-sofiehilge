@@ -1,29 +1,27 @@
 .footerSection{
-    display: flex;
-    
+   display: flex;
+   justify-content: space-between;
     background-color: var(--grey-color);
 }
 
 .headFooter{
-    padding-right: 30px;
     margin-left: var(--margin-left);
-    width: 340px;
 }
 
 .textFooter{
-    font-size: 24px;
-    
+    font-size: 24px;    
+    font-weight: bold;
 }
 
 .textCard{
     font-size: 14px;
     font-family: var(--font-paragraf);
     color: black;
-
 }
 
 .headlineFooter{
     font-size: 48px;
+    width: 20vw;
 }
 a{
     display: block;
@@ -31,8 +29,48 @@ a{
 
 .siteMapsWrap{
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px
+
 }
 
 .siteMapCard{
-    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: var(--margin-left);
 }
+
+.cardHeadline{
+    font-weight: bold;
+}
+
+.copyRight{
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.footerNav{
+    padding-left: 400px
+}
+
+li{
+    padding-right: 90px;
+    font-size: 14px;
+}
+
+.footerNavWrapper{
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    list-style: none;
+
+    background-color: var(--grey-color);
+    border-top: 1px solid grey;
+    font-family: var(--font-paragraf);
+    padding-top: 30px;
+    padding-left: var(--margin-left);
+}
+
+
