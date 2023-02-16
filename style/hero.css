@@ -9,6 +9,35 @@
     
 }
 
+.fa-cube{
+    margin: 30px 140px;
+    color: white;
+    width: 32px;
+}
+
+.hero-portrait{
+    width: 86px;
+    height: 53px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    margin-left: 1100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-image-portrait{
+    color: var(--primary-color);
+
+}
+
+
+
+
+
+
 .aside-container{
     display: flex;
     flex-direction: column;
