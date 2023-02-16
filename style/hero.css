@@ -6,20 +6,29 @@
     position: absolute;
     top: 5px;
     margin-top: 5px;
+    
 }
 
 .aside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 741px;
-    height: 320px;
+    height: 537px;
     position: absolute;
-    top: 400px;
-    left: 40px;
+    top: 200px;
+    left: 20px;
     background-color: white;
     padding: 40px;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  margin: var(--margin-left)
 }
 
 .hero-headline{
     font: var(--font-hero);
+    font-weight: bold;
     font-size: 39px;
     color: black;
     width: 521px;

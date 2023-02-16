@@ -1,6 +1,8 @@
 .sites{
     display: flex;
     justify-content: space-around;
+    margin: var(--margin-left);
+ 
 }
 
 .sitesSection{
@@ -8,8 +10,7 @@
 }
 
 .joinSiteWrapper{
-    margin-left: var(--margin-left);
-    width: 325px;
+     width: 325px;
 }
 
 .headline-site{
@@ -23,6 +24,16 @@
     height: 65px;
     color: white;
     border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start{
+    font-family: var(--font-paragraf);
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .imgSiteWrapper{
